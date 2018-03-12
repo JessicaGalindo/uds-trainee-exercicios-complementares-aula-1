@@ -1,5 +1,9 @@
-HTML é uma linguagem de __________________
+#Exercicio 1
 
-CSS é uma linguagem de ___________________
+*HTML é uma linguagem de **marcação**
 
-Cite 3 tags HTML, e descreva suas funções.
+*CSS é uma linguagem de **estilização**
+
+*Cite 3 tags HTML, e descreva suas funções.
+
+
