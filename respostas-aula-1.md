@@ -1,9 +1,9 @@
-#Exercicio 1
+# Exercicio 1
 
-*HTML é uma linguagem de **marcação**
+* HTML é uma linguagem de **marcação**
 
-*CSS é uma linguagem de **estilização**
+* CSS é uma linguagem de **estilização**
 
-*Cite 3 tags HTML, e descreva suas funções.
+* Cite 3 tags HTML, e descreva suas funções.
 
 
