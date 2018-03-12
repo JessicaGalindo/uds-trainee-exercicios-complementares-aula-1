@@ -28,6 +28,34 @@
    - A cor do fundo seja azul
    - O espaçamento interno seja 10px
    - Ao passar o mouse, a cor de fundo seja vermelho, com uma trasição sutil entre as cores
+```   
+<html>
+  <head>
+    <title> Exercicio 1 </title>
+
+    <style>
+      .linkGoogle{
+        font: bold 32px arial; /*bold = negrito = 700 */
+        color: white;
+        background-color: blue;
+        padding: 10px; /* espaçamento interno */
+      }
+      
+      .linkGoogle:hover{
+        background-color: red;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div>
+    <a color="white" class="linkGoogle" href="http://google.com">Ir para o google</a>
+  </div>
+  </body>
+</html>
+```
 
 * Vamos criar um site sobre você, o site deve ter 3 páginas:
 
