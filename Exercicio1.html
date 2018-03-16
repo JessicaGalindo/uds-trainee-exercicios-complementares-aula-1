@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title> Exercicio 1 </title>
+
+    <style>
+      .linkGoogle{
+        font: bold 32px arial; /*bold = negrito = 700 */
+        color: white;
+        background-color: blue;
+        padding: 10px; /* espaçamento interno */
+      }
+      
+      .linkGoogle:hover{
+        background-color: red;
+        /*transition: 0.5s ease-in; #tudo junto
+
+        -webkit-transition: 0.5s ease-in; #para Chrome e similares antigos
+        -moz-transition: 0.5s ease-in; #mozila-antigo
+        -o-transition: 0.5s ease-in; #opera-antigo
+        transition: 0.5s ease-in;*/
+
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div>
+    <a color="white" class="linkGoogle" href="http://google.com">Ir para o google</a>
+  </div>
+  </body>
+</html>

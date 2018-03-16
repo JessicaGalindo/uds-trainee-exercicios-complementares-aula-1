@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title> Contato </title>
+
+  <link rel="stylesheet" type="text/css" href="style-contato.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+
+<body>
+  <div class="fundo-img">
+
+    <div id="menu">
+      <ul>
+        <template id="itemMenu">
+          <li></li>
+        </template>
+      </ul>
+    </div>
+
+    <h2> Contato </h2>
+
+    <!-- action: define uma url para os dados recolhidos
+    method: define qual método para enviar os dados -->
+    <form action="/formulario-contato" method="post">
+      <div>
+        <!-- O for serve para vincular a label a um formulario -->
+        <label for="name"> Nome: </label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="mail"> E-mail: </label>
+        <input type="email" id="mail" />
+      </div>
+
+      <div>
+        <label for="msg"> Mensagem: </label>
+        <textarea id="msg"> Digite aqui sua mensagem: </textarea>
+      </div>
+
+      <div class="button">
+        <!-- button type = "submit" serve para enviar os dados do formulario para a pagina web -->
+        <button type="button" onclick="alerta()" value="Exibir Alerta"> Enviar sua mensagem </button>
+      </div>
+    </form>
+
+    <script src="template.js">
+    function alerta(){
+      alert("Aguarde, o formulário ainda esta em processo de desenvolvimento.");
+    }
+    </script>
+  </div>
+</body>
+</html>
