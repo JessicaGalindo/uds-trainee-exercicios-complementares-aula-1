@@ -45,21 +45,12 @@ input:focus, textarea:focus {
   padding: center;
 }
 
-.fundo-img{ /*VER PARA A IMAGEM FICAR SEMPRE NA TELA INTEIRA*/
-  background-image: url("Fotos/fundo-contato.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  bottom: 0;
-  color: black;
-  left: 0;
-  overflow: auto;
-  padding: 3em;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-}
-
 .fundo-branco{
   background-color: white;
+}
+
+.container{  /*configurações menu e titulo*/
+  color: black;
+  padding: 3em;
+  text-align: center;
 }

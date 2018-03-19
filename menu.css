@@ -27,5 +27,23 @@
 #menu ul li a:hover {
   background-color:#D6D6D6;
   color: #6D6D6D;
-  border-bottom:3px solid blue;
+  border-bottom:3px solid #00CDCD;
+}
+
+/*mostra o menu atual selecionado*/
+#menu ul li .menu-ativo {
+  background-color:#D6D6D6;
+  color: #6D6D6D;
+  border-bottom:3px solid #00CDCD;
+}
+
+.fundo-img {
+  background-image: url("Fotos/fundo-contato.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.fundo{
+  background-image: url("Fotos/fundo-contato.jpg");
+  background-size: cover;
 }
